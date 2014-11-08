@@ -154,41 +154,4 @@ create_results_webpage( train_image_paths, ...
                         abbr_categories, ...
                         predicted_categories)
 
-% Interpreting your performance with 100 training examples per category:
-%  accuracy  =   0 -> Your code is broken (probably not the classifier's
-%                     fault! A classifier would have to be amazing to
-%                     perform this badly).
-%  accuracy ~= .07 -> Your performance is chance. Something is broken or
-%                     you ran the starter code unchanged.
-%  accuracy ~= .20 -> Rough performance with tiny images and nearest
-%                     neighbor classifier. Performance goes up a few
-%                     percentage points with K-NN instead of 1-NN.
-%  accuracy ~= .20 -> Rough performance with tiny images and linear SVM
-%                     classifier. The linear classifiers will have a lot of
-%                     trouble trying to separate the classes and may be
-%                     unstable (e.g. everything classified to one category)
-%  accuracy ~= .50 -> Rough performance with bag of SIFT and nearest
-%                     neighbor classifier. Can reach .60 with K-NN and
-%                     different distance metrics.
-%  accuracy ~= .60 -> You've gotten things roughly correct with bag of
-%                     SIFT and a linear SVM classifier.
-%  accuracy >= .70 -> You've also tuned your parameters well. E.g. number
-%                     of clusters, SVM regularization, number of patches
-%                     sampled when building vocabulary, size and step for
-%                     dense SIFT features.
-%  accuracy >= .80 -> You've added in spatial information somehow or you've
-%                     added additional, complementary image features. This
-%                     represents state of the art in Lazebnik et al 2006.
-%  accuracy >= .85 -> You've done extremely well. This is the state of the
-%                     art in the 2010 SUN database paper from fusing many 
-%                     features. Don't trust this number unless you actually
-%                     measure many random splits.
-%  accuracy >= .90 -> You get to teach the class next year.
-%  accuracy >= .96 -> You can beat a human at this task. This isn't a
-%                     realistic number. Some accuracy calculation is broken
-%                     or your classifier is cheating and seeing the test
-%                     labels.
-
-
-
 
