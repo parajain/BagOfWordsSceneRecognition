@@ -1,9 +1,6 @@
-%Parag Jain, CS13M1008 , IIT Hyderabad
+%Parag Jain
 % Starter code prepared by James Hays and Sam Birch for CS 143, Brown U.
 %--------------------------------------------------------------------------
-% All of your code will be in "Step 1" and "Step 2", although you can
-% modify other parameters in the starter code.
-
 %% Step 0: Set up parameters, vlfeat, category list, and image paths.
 
 %For this project, you will need to report performance for three
