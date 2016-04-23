@@ -7,10 +7,13 @@ Bag of SIFTs+Chi squared kernel SVM : accuracy 0.753
 SVM Result:
 
 <dt>
+<dt>
+<!DOCTYPE html>
 <html>
 <head>
 <link href='http://fonts.googleapis.com/css?family=Nunito:300|Crimson+Text|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
-
+<style type="text/css">
+</style>
 </head>
 <body>
 
@@ -231,3 +234,4 @@ Accuracy (mean of diagonal of confusion matrix) is 0.705
 </html>
 </dt>
 
+</dt>
